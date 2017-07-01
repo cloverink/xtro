@@ -1,0 +1,168 @@
+*{font-family:Tahoma;color: #FFF;font-size: 13px; line-height: 22px;}
+body{min-width:1000px;margin:0;background:#000;width:100%;height:100%}
+ul,li{list-style:none;margin:0;padding:0}
+#dvContainer{width:100%;height:100%;position:relative; overflow: hidden;}
+a{text-decoration: none;border:none; color: #FFF}
+.hideMe{display:none;}
+
+/* menu */
+#dvMegaMenu{width:1000px;height:100px;position:relative;top:10px;margin:0 auto}
+#dvMegaMenu #lnkLogo{width:100px;height:97px;background:url(../img/logo.png) center left no-repeat;float:left}
+#dvMegaMenu #dvMenu{width:868px;height:58px;background:url(../img/menu_mega.png) center center no-repeat;float:left;cursor:pointer;margin:20px 0 0}
+#dvMegaMenu #dvMenu > div{cursor:pointer;height:58px;float:left;}
+#dvMegaMenu #dvMenu #btnMetro{width:136px}
+#dvMegaMenu #dvMenu #btnSilicone{width:187px}
+#dvMegaMenu #dvMenu #btnPremium{width:179px}
+#dvMegaMenu #dvMenu #btnLocation{width:113px}
+#dvMegaMenu #dvMenu #btnStore{width:95px}
+#dvMegaMenu #dvMenu #btnNeed{width:158px}
+#dvMegaMenu #dvMenu #btnMetro.select{background:url(../img/menu_0.png) no-repeat}
+#dvMegaMenu #dvMenu #btnSilicone.select{background:url(../img/menu_1.png) no-repeat}
+#dvMegaMenu #dvMenu #btnPremium.select{background:url(../img/menu_2.png) no-repeat}
+#dvMegaMenu #dvMenu #btnLocation.select{background:url(../img/menu_3.png) no-repeat}
+#dvMegaMenu #dvMenu #btnStore.select{background:url(../img/menu_4.png) no-repeat}
+#dvMegaMenu #dvMenu #btnNeed.select{background:url(../img/menu_5.png) no-repeat}
+
+/* footer */
+#dvFooter{position:absolute;width:100%;height:62px;background:url(../img/footer_bg.jpg) center top repeat-x #000;bottom:-5px}
+#dvFooter #dvFooterContent{width:1000px;height:57px;position:relative;margin:0 auto}
+#dvFooter #dvFooterContent #lnkTw{width:30px;height:30px;position:absolute;right:0;top:15px;background:url(../img/btn_tw.png) center center no-repeat}
+#dvFooter #dvFooterContent #lnkFb{width:31px;height:31px;position:absolute;right:40px;top:15px;background:url(../img/btn_fb.png) center center no-repeat}
+#dvFooter #dvFooterContent #dvLang{position:absolute;left:0;top:20px}
+#dvFooter #dvFooterContent #dvLang *{font-size:19px}
+#dvFooter #dvFooterContent #dvCopy{position:relative;top:18px;width:400px;height:30px;text-align:center;margin:0 auto;background: url(../img/footer_text.jpg) center center no-repeat;}
+
+/* cover */
+.cover{background:#111}
+.cover #dvCover{width:368px;height:186px;background:url(../img/coverpage.png) center center no-repeat;position:relative;margin:0 auto; visibility: hidden;}
+.cover #dvCover #btnCover{width:95px;height:25px;position:absolute;bottom:0;left:135px;}
+
+/* main */
+.main #dvContainer{background:url(../img/main_bg.jpg) center top no-repeat;visibility:hidden}
+.main #dvCover{width:518px;height:135px;background:url(../img/main_text.png) center center no-repeat;position:relative;visibility:hidden;top:160px;margin:0 auto}
+
+/* metro */
+.metro #dvContainer{background:url(../img/metro_bg.jpg) center top no-repeat;visibility:hidden}
+.metro #dvContent{width:1000px;position:relative;margin:0 auto}
+.metro #dvContent #dvMetro{width:460px;position:relative;left:500px;display:none;margin: 15px 0 70px 0}
+.metro #dvContent #dvMetro .h1{background:url(../img/metro_text_h1.png) center left no-repeat;width:500px;height:98px}
+.metro #dvContent #dvMetro .h2{background:url(../img/metro_text_h2.png) center left no-repeat;width:500px;height:20px}
+
+/* premium */
+.premium #dvContainer{background:url(../img/premium_bg.jpg) center bottom no-repeat;visibility:hidden}
+.premium #dvContent{width:1000px;position:relative;margin:0 auto}
+.premium #dvContent #dvGel{background:url(../img/premium_gel.png) -50px 0 no-repeat;width:359px;height:568px;position:absolute;top:70px;visibility:hidden}
+.premium #dvContent #dvPremium{width:445px;position:relative;display:none;left:400px}
+.premium #dvContent #dvPremium p{font-size:15px;line-height: 22px;}
+.premium #dvContent #dvPremium .line{width:600px;height:15px;background:url(../img/premium_line.png) center left no-repeat}
+.premium #dvContent #dvPremium .h1{background:url(../img/premium_h1.png) bottom left no-repeat;width:600px;height:95px;margin-bottom:20px}
+
+/* silicone */
+.silicone #dvContainer{background:url(../img/silicone_bg.jpg) center top no-repeat}
+.silicone #dvContent{width:1000px;position:relative;margin:15px auto 80px}
+.silicone #dvContent #dvSilicone{position:relative}
+.silicone #dvContent #dvSilicone .title{background:url(../img/silicone_title.png) left center no-repeat;width:492px;height:70px;position:relative;margin:0 auto 10px}
+.silicone #dvContent #dvSilicone .map{width:866px;height:401px;position:relative; margin: 0 auto;}
+.silicone #dvContent #dvSilicone .map > div{position:absolute; display: none;}
+.silicone #dvContent #dvSilicone .map #s0{background:url(../img/silicone_0.png) center center no-repeat;width:231px;height:401px;left:0;top:0}
+.silicone #dvContent #dvSilicone .map #s1{background:url(../img/silicone_1.png) center center no-repeat;width:310px;height:241px;left:237px;top:0}
+.silicone #dvContent #dvSilicone .map #s2{background:url(../img/silicone_2.png) center center no-repeat;width:362px;height:153px;left:237px;bottom:0}
+.silicone #dvContent #dvSilicone .map #s3{background:url(../img/silicone_3.png) center center no-repeat;width:313px;height:241px;right:0;top:0}
+.silicone #dvContent #dvSilicone .map #s4{background:url(../img/silicone_4.png) center center no-repeat;width:261px;height:153px;right:0;bottom:0}
+.silicone #dvContent #dvSilicone .line{background:url(../img/silicone_line_max.png) center left no-repeat;width:865px;height:70px;position:relative; margin: 0 auto;}
+.silicone #dvContent #dvSilicone p{width:870px; position: relative; margin: 0 auto;}
+.silicone #dvContent #dvSilicone .container{width:890px;position:relative;height:250px;padding-top:10px;top:20px; margin: 0 auto;}
+.silicone #dvContent #dvSilicone .container .thump{background:url(../img/silicone_thump.png) center top no-repeat;width:246px;height:248px;position:absolute;top:0;left:0}
+.silicone #dvContent #dvSilicone .container .line{background:url(../img/silicone_line.png) center left no-repeat;width:596px;height:20px;position:absolute;left:285px}
+.silicone #dvContent #dvSilicone .container p{position:absolute;left:290px;top:40px;width:590px; text-align: justify}
+
+/* need */
+.need #dvContainer{background:url(../img/need_bg.png) center top no-repeat}
+.need #dvContent{width:1000px;position:relative;margin:15px auto 80px}
+.need #dvContent .title{background:url(../img/need_title.png) center left no-repeat;width:342px;height:50px;margin: 0 auto 20px;}
+.need #dvContent .line{background:url(../img/need_line.png) center left no-repeat;width:100%;height:15px}
+.need #dvContent .containt{width:922px;left:35px;position:relative}
+.need #dvContent .containt .p{line-height:25px;width:800px;float:left}
+.need #dvContent .containt .head{width:100%;height:25px}
+.need #dvContent .containt .body{background:#1d1d1d;font-size:14px;display:none;margin:10px 0 15px;padding:15px 10px}
+.need #dvContent .containt .btn{background:url(../img/need_arr.png) 0 0 no-repeat;height:28px;width:54px;cursor:pointer;float:right}
+.need #dvContent .containt.focus .btn{background:url(../img/need_arr.png) 0 -28px}
+
+/* location */
+.location #dvContainer{background:url(../img/need_bg.png) center top no-repeat}
+.location #dvContent{width:900px;position:relative;margin:15px auto 80px}
+.location #dvContent .topic{background:url(../img/location.png) center left no-repeat;width:274px;height:50px;position: relative; margin: 0 auto 20px;}
+.location #dvContent #dvLocation { position: relative}
+.location #dvContent #dvLocation > div{background:url(../img/locatioinContainer.png) center center no-repeat;width:848px;height:113px;position:relative;margin:0 auto 20px}
+.location #dvContent #dvLocation > div .thump{float:left;left:10px;top:10px;position:relative}
+.location #dvContent #dvLocation > div .detail{height:110px;float:left;min-width:500px;position:relative;left:30px}
+.location #dvContent #dvLocation > div .detail p {
+	height: 105px;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.location #dvContent #dvLocation > div .detail .title{color:#fab217;font-size:16px}
+.location #dvContent #dvLocation > div > a{background:url(../img/btnView.png) center center no-repeat;width:87px;height:37px;float:right;position:relative;border:none;top:37px;right:20px}
+
+/* store */
+.store #dvContainer{background:url(../img/need_bg.png) center top no-repeat}
+.store #dvContent{width:900px;position:relative;margin:15px auto 80px}
+.store #dvContent .topic{background:url(../img/store.png) center left no-repeat;width:218px;height:50px;position:relative;margin:0 auto 20px}
+.store #dvContent #dvStore{position:relative;width:800px;border-bottom:solid 1px #333;height:430px;margin:0 auto}
+.store #dvContent #dvStore div{background:url(../img/store1.png) center center no-repeat;width:360px;height:404px;float:left}
+.store #dvContent #dvStore div:last-child{background:url(../img/store2.png) center center no-repeat;float:right}
+.store #dvContent .detail{line-height:23px;margin:20px 0 0 50px}
+.store #dvContent .detail a{color:#fab217}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
